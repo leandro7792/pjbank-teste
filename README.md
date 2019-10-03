@@ -1,6 +1,6 @@
 # Teste de competencia - Superlogica / PJbank
 
-O sistema foi desenvolvido com PHP / framework Laravel + mysql no backend e ReactJS no frontend. Segui os passos listados aqui https://github.com/Superlogica/vagas/issues/2
+O sistema foi desenvolvido seguindo os passos listados aqui https://github.com/Superlogica/vagas/issues/2
 
 # Funcionalidades:
 
