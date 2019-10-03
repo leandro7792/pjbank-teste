@@ -1,4 +1,4 @@
-# Teste de competencia - Superlogica / PJbank
+# Teste de compêtencia - Superlogica / PJbank
 
 O sistema foi desenvolvido seguindo os passos listados aqui https://github.com/Superlogica/vagas/issues/2
 
