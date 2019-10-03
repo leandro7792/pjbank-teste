@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(Inventario::class, function (Faker $faker) {
     return [
         'descricaoProduto' => $faker->company,
-        'qtdeProduto' => $faker->randomDigit,
-        'precoProduto' => $faker->randomFloat($nbMaxDecimals = 2, $min = 100, $max = 900000)
+        'qtdeProduto' => $faker->randomNumber(1),
+        'precoProduto' => $faker->randomFloat($nbMaxDecimals = 2, $min = 10, $max = 100)
     ];
 });
