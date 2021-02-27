@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -9,9 +10,9 @@ const Main = props => {
         <>
             <div id="conteudo">
                 <nav className="d-flex justify-content-center bg-dark p-4 shadow">
-                    <a href="/">
+                    <Link to="/">
                         <img src={Logo} />
-                    </a>
+                    </Link>
                 </nav>
 
                 <div className="container">{props.children}</div>

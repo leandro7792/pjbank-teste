@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 import api from "../../services/api";
-
 import FormUpdate from "../../components/formUpdate";
 
 const Adicionar = props => {
@@ -9,12 +8,10 @@ const Adicionar = props => {
 
     useEffect(() => {
         const { id } = props.match.params;
-        const loadData = async () => {
+        (async () => {
             const reponse = await api.get(`/inventarios/${id}`);
             setItem(reponse.data);
-        };
-
-        loadData();
+        })();
     }, []);
 
     return (

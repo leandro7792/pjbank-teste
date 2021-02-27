@@ -9,15 +9,15 @@ import Editar from "./page/Editar/";
 
 const App = () => {
     return (
-        <Main>
-            <BrowserRouter>
-                <Switch>
+        <BrowserRouter>
+            <Switch>
+                <Main>
                     <Route exact path="/" component={Inicio} />
                     <Route path="/adicionar" component={Adicionar} />
                     <Route path="/editar/:id" component={Editar} />
-                </Switch>
-            </BrowserRouter>
-        </Main>
+                </Main>
+            </Switch>
+        </BrowserRouter>
     );
 };
 
